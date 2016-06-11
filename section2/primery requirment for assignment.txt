@@ -1,0 +1,24 @@
+SECTION 1
+Shuold get install Node.JS on your Machine
+*******************************************************
+SECTION 2
+for running connectivity.java program 
+needed the following things
+1)MySQL
+2)JDBC driver
+3)table for following desciption
+mysql> describe my_vcf;
++--------+--------------+------+-----+---------+-------+
+| Field  | Type         | Null | Key | Default | Extra |
++--------+--------------+------+-----+---------+-------+
+| Chr    | varchar(50)  | YES  |     | NULL    |       |
+| Pos    | int(11)      | YES  |     | NULL    |       |
+| ID     | varchar(20)  | YES  |     | NULL    |       |
+| Ref    | varchar(1)   | YES  |     | NULL    |       |
+| Alt    | varchar(1)   | YES  |     | NULL    |       |
+| Qual   | varchar(100) | YES  |     | NULL    |       |
+| Filter | varchar(30)  | YES  |     | NULL    |       |
+| Info   | varchar(20)  | YES  |     | NULL    |       |
+| Sample | varchar(30)  | YES  |     | NULL    |       |
++--------+--------------+------+-----+---------+-------+
+9 rows in set (0.26 sec)
